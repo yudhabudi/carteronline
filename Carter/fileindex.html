@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="filestyle.css">
+
+<title>Document</title>
+</head>
+
+<body>
+    <header>
+    <img class="" style="padding: 12px;">
+    <h2 class="judul">Pick Up Cepat Antar Cepat</h2>
+    
+    
+    <nav>
+    
+    <a href="login.html">Logout</a>
+
+    
+</nav>
+
+    </header>
+    
+    <section>
+    <div class="kiri">
+        <br><br><br>
+        <p><h2>● Pilih Jenis Carteran</h2></p>
+    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<img src="logo2.png" height="110px"> 
+    <a href="cartermobil.html"><h3 style="text-align: center;">Carter Mobil</h3></a>
+    <br> 
+    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<img src="logo3.png" height="100px">
+    <a href="carterbarang.html"><h3 style="text-align: center;">Carter Barang</h3></a>
+    </div>
+
+    <div class="tengah">
+   <br><br><br>
+   <p><h1> Tersedia di Seluruh Indonesia</h1></p>
+   <br><br><br><br><br><br><br>
+   <img src="indonesia.png" height="230px">
+    </div>
+
+    <div class="kanan">
+        
+        
+            
+        </form>
+    </div>
+    </section>
+
+    <footer>
+    <h5><br>Ⓒ Copyright By: THE PANAS DALAM</h5>
+
+    <button class="darkmode" onclick="setDarkMode(true)"> Dark Mode: ON </span><br>
+    <button class="darkmode" onclick="setDarkMode(false,)">Dark Mode: OFF </span>
+    </footer>
+
+<style>
+
+#darkmode {
+        background: black;
+        color: white;
+}
+</style>
+
+   <script src="jquery-3.6.0.min.js"></script>
+   
+   <script>
+    if(localStorage.getItem('theme') == 'dark')
+    setDataMode(true)
+    
+    function setDarkMode(isDark) {
+        if(isDark) {
+            document.body.setAttribute('id', 'darkmode')
+            localStorage.setItem('theme', 'dark')
+        } else {
+            document.body.setAttribute('id', '')
+            localStorage.removeItem('theme')
+        }
+    }
+</script>
+
+</body>
+    </html>

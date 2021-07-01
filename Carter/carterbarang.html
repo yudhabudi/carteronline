@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="filestyle.css">
+
+<title>Document</title>
+</head>
+
+<body>
+    <header>
+    <img class="" style="padding: 12px;">
+    <h2 class="judul">Pick Up Cepat Antar Cepat</h2>
+    
+    
+    <nav>
+    <a href="fileindex.html">Back</a>
+    <a href="login.html">Logout</a>
+
+    
+</nav>
+
+    </header>
+    
+    <section>
+    <div class="kiri">
+        <br><br>
+        &ensp;&ensp;&ensp;&ensp;<p><h2>● List Muatan Barang</h2></p>
+    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<img src="logo5.png" height="150px"> 
+    <h3 style="text-align: center;">Muatan Kecil</h3>
+ 
+    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<img src="logo6.png" height="100px">
+    <h3 style="text-align: center;">Muatan Sedang</h3>
+
+    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<img src="logo4.png" height="150px">
+    <h3 style="text-align: center;">Muatan Sedang</h3>
+    </div>
+
+    <div class="tengah">
+        <br><br><br><br><br><br><br><br><br><br>
+        <p><h1> Isi Data Carter Barang</h1></p>
+        <br>
+        &ensp;&ensp;&ensp;&ensp;<input type="text" placeholder="Pilih Muatan"/><br><br>
+        &ensp;&ensp;&ensp;&ensp;<input type="text" placeholder="Alamat"/><br><br>
+        &ensp;&ensp;&ensp;&ensp;<input type="text" placeholder="Tujuan"/><br><br>
+        &ensp;&ensp;&ensp;&ensp;<input type="text" placeholder="Jenis Barang"/><br><br>
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<button type="button" onclick="window.location.href='submit.html'">Submit</button>  
+    </div>
+
+    <div class="kanan">
+        
+        
+            
+        </form>
+    </div>
+    </section>
+
+    <footer>
+    <h5><br>Ⓒ Copyright By: THE PANAS DALAM</h5>
+
+    <button class="darkmode" onclick="setDarkMode(true)"> Dark Mode: ON </span><br>
+    <button class="darkmode" onclick="setDarkMode(false,)">Dark Mode: OFF </span>
+    </footer>
+
+<style>
+
+#darkmode {
+        background: black;
+        color: white;
+}
+</style>
+
+   <script src="jquery-3.6.0.min.js"></script>
+   
+   <script>
+    if(localStorage.getItem('theme') == 'dark')
+    setDataMode(true)
+    
+    function setDarkMode(isDark) {
+        if(isDark) {
+            document.body.setAttribute('id', 'darkmode')
+            localStorage.setItem('theme', 'dark')
+        } else {
+            document.body.setAttribute('id', '')
+            localStorage.removeItem('theme')
+        }
+    }
+</script>
+
+</body>
+    </html>

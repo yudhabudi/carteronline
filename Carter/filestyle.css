@@ -1,0 +1,74 @@
+header {
+    background-color: rgb(129, 103, 101);
+    height: 60px;
+    width: 1508px;
+    }
+.logo {
+    width: 5%;
+    height: 40%;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    }
+
+.judul {
+        position: relative;
+        top: -40px;
+        text-align: center;
+        }
+
+nav {
+    height: 20px;
+    width: 1508px;
+    position: relative;
+    top: -50px;
+    text-align: center;
+    background-color: rgb(129, 103, 101);
+    }
+
+section {
+    width: 100%;
+    border-style: dashed;
+    height: 500px;
+    }
+.kiri {
+    width: 20%;
+    height: 145%;
+    background-color: rgb(163, 155, 108);
+    float: left;
+    position: relative;
+    top: 0.5%;
+    left: -2.2px;
+    }
+.tengah{
+    width: 60%;
+    height: 150%;
+    background-color: rgb(163, 155, 108);
+    position: relative;
+    left: 297px;
+    top: 0.5%;
+    }
+.kanan {
+    width: 20.4%;
+    height: 145%;
+    background-color: rgb(163, 155, 108);
+    float: right;
+    position: relative;
+    top: -149.5%;
+    left: 2px;
+    }
+.gambartengah {
+    width: 25%;
+    height: width;
+    align-items: center;
+    }
+footer {
+    background-color: rgb(129, 103, 101);
+    position: relative;
+    top: -750px;
+    height: 50px;
+    width: 1508px;
+    text-align: center;
+    clear: both;
+    }
+
